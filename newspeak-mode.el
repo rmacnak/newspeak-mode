@@ -35,6 +35,7 @@
     ("\\<\\(class\\|outer\\|private\\|protected\\|public\\|self\\|super\\|transient\\)\\>" 0 (symbol-value 'font-lock-keyword-face))
     ))
 
+;;;###autoload
 (define-derived-mode newspeak-mode prog-mode "Newspeak"
   "A major mode for editing Newspeak (newspeaklanguage.org)."
   (show-paren-mode t)
